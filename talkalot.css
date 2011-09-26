@@ -1,0 +1,7 @@
+/* Facebook Comments Elastic Layout */
+.facebookCommentTitle {
+	margin:10px 0px 10px 0px;
+}
+#talkalot_comments .fb_iframe_widget, #talkalot_comments .fb_iframe_widget iframe  {
+	width:100% !important;
+}
