@@ -178,7 +178,7 @@ class talkalotModule extends Module
       	if($caroExists && Configuration::get('SHARE_CAR'))
       		return;
 
-        $thanks = '<span style="font-size:11px;font-color:#999999;font-style:italic;margin-top:11px;float:left">Plugin created by <a href="http://www.ilet.com.br" target="_blank">Acessórios Apple - iLet</a> - More info at - <a href="http://www.ilet.com.br/blog/prestashop-modules/" target="_blank">Prestashop Modules</a></span>';
+        $thanks = '<span style="font-size:11px;font-color:#999999;font-style:italic;margin-top:11px;float:left">Module from the creators of <a href="http://www.guitarpro6.com.br/" target="_blank">Guitar Pro 6</a> :: More at <a href="http://www.pazzanitech.com.br/prestashop-modules" target="_blank">Prestashop Modules</a></span>';
         $smarty->assign(array('clear' => $thanks));
         return $this->display(__FILE__, 'talkalot-footer.tpl');
 	}
