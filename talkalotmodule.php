@@ -39,9 +39,9 @@ class talkalotModule extends Module
 			!Configuration::updateValue('TALKALOT_ALREADYFACE', 0) OR
 			!Configuration::updateValue('TALKALOT_COMMENTS_POSTS', 10) OR
 			!Configuration::updateValue('TALKALOT_COMMENTS_WIDTH', 500) OR
-			!Configuration::updateValue('TALKALOT_APP_ID', '198772840173509') OR
-			!Configuration::updateValue('TALKALOT_ADMIN_USER_ID', '624300364') OR
-			!Configuration::updateValue('TALKALOT_ADMIN_CONTACT_EMAIL', 'name@example.com') OR
+			!Configuration::updateValue('TALKALOT_APP_ID', '') OR
+			!Configuration::updateValue('TALKALOT_ADMIN_USER_ID', '') OR
+			!Configuration::updateValue('TALKALOT_ADMIN_CONTACT_EMAIL', 'something@example.com') OR
 			!Configuration::updateValue('TALKALOT_APP_LANG', 'en_US') OR
 			!Configuration::updateValue('SHARE_COM', 1) OR
             !Configuration::updateValue('TALKALOT_COMMENTS_COLOR', 'light')
