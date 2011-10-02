@@ -102,7 +102,7 @@ class talkalotModule extends Module
 		// FACEBOOK GENERAL CONFIG
                 $this->_html .='
             <fieldset>
-            	<div style="width:400px;margin:10px auto;color:#333333;font-weight:bold;font-size:12px;font-style:italic;text-align:center">Before we start, make sure you already have an Application Created on Facebook. You can create it in the <a href="https://developers.facebook.com/apps" target="_blank" style="color:#3B5998;">Faceboko App Home</a>.</div>
+            	<div style="width:400px;margin:10px auto;color:#333333;font-weight:bold;font-size:12px;font-style:italic;text-align:center">Before we start, make sure you already have an Application Created on Facebook. If you dont know how to do it, here is <a href="http://www.pazzanitech.com.br/how-to-create-a-facebook-app" target="_blank" style="color:#3B5998;">How to Create a Facebook APP</a>.</div>
 				<legend><img src="'.$this->_path.'logo.gif" alt="" title="" />'.$this->l('Facebook General Settings').'</legend>
 				<div class="margin-form">
 					<label>'.$this->l('Have other Facebook Module?').'</label>
