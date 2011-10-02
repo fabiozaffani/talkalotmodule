@@ -203,12 +203,13 @@ class talkalotModule extends Module
 		
 		if ($alreadyFace)
 			return;
-                global $smarty;
-                $smarty->assign(array(
-                        'app_id' => Configuration::get('TALKALOT_APP_ID'),
-                        'lang' => Configuration::get('LIKE_FACEBOOK_APP_LANG')
-                        ));
-                return $this->display(__FILE__, 'talkalot-top.tpl');
+
+        global $smarty;
+        $smarty->assign(array(
+                'app_id' => Configuration::get('TALKALOT_APP_ID'),
+                'lang' => Configuration::get('TALKALOT_APP_LANG')
+                ));
+        return $this->display(__FILE__, 'talkalot-top.tpl');
 	}
 
 	public function hookProductFooter($params)
