@@ -116,7 +116,7 @@ class talkalotModule extends Module
 				<div class="margin-form">
 					<label>'.$this->l('Facebook APP ID').'</label>
 					<input type="text" name="appID" id="appID" value="'.(Configuration::get('TALKALOT_APP_ID')).'" /><br/>
-					<small style="padding-left:80px;display:block;margin-top:6px">You MUST provide your own APP ID, otherwise the module WILL NOT WORK</small>
+					<small style="padding-left:80px;display:block;margin-top:6px">You MUST provide your own APP ID, otherwise the module WILL NOT WORK. <a href="http://www.pazzanitech.com.br/how-to-create-a-facebook-app" target="_blank" style="color:#3B5998;">How to Create a Facebook APP</a></small>
 				</div>
 				<br/>
 				<div class="margin-form">
